@@ -2,6 +2,7 @@ package com.dungeonquest.app.ui.screens
 
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -116,7 +117,8 @@ fun MainMenuScreen(
                     contentColor = GoldLight
                 ),
                 shape = RoundedCornerShape(12.dp),
-                border = ButtonDefaults.outlinedButtonBorder.copy(
+                border = BorderStroke(
+                    width = 1.dp,
                     brush = Brush.horizontalGradient(
                         listOf(GoldDark, GoldPrimary, GoldDark)
                     )
