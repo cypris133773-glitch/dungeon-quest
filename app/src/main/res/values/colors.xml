@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_background">#FF0D0D0D</color>
+    <color name="dark_surface">#FF1A1A2E</color>
+    <color name="gold_primary">#FFD4AF37</color>
+    <color name="gold_light">#FFFFD700</color>
+    <color name="red_health">#FFCC3333</color>
+    <color name="blue_arcane">#FF4169E1</color>
+    <color name="green_heal">#FF2E8B57</color>
+    <color name="text_primary">#FFE8E6E3</color>
+    <color name="text_secondary">#FFB0A99F</color>
+</resources>

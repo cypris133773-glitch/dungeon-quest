@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Blade -->
+    <path
+        android:fillColor="#C0C0C0"
+        android:pathData="M24,4 L28,6 L26,28 L24,30 L22,28 L20,6 Z"
+        android:strokeColor="#A0A0A0"
+        android:strokeWidth="0.5"/>
+
+    <!-- Blade highlight -->
+    <path
+        android:fillColor="#E8E8E8"
+        android:pathData="M24,4 L26,6 L25,26 L24,28 Z"/>
+
+    <!-- Guard -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M16,28 L32,28 L32,31 L16,31 Z"
+        android:strokeColor="#996515"
+        android:strokeWidth="0.5"/>
+
+    <!-- Grip -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M22,31 L26,31 L26,40 L22,40 Z"/>
+
+    <!-- Grip wrap -->
+    <path
+        android:strokeColor="#654321"
+        android:strokeWidth="1"
+        android:pathData="M22,33 L26,33 M22,36 L26,36 M22,39 L26,39"/>
+
+    <!-- Pommel -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M21,40 L27,40 L25,44 L23,44 Z"
+        android:strokeColor="#996515"
+        android:strokeWidth="0.5"/>
+</vector>

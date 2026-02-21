@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Cork -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M20,6 L28,6 L28,10 L20,10 Z"
+        android:strokeColor="#654321"
+        android:strokeWidth="0.5"/>
+
+    <!-- Bottle neck -->
+    <path
+        android:fillColor="#87CEEB"
+        android:fillAlpha="0.4"
+        android:pathData="M21,10 L27,10 L27,18 L21,18 Z"
+        android:strokeColor="#4682B4"
+        android:strokeWidth="0.8"/>
+
+    <!-- Bottle body -->
+    <path
+        android:fillColor="#87CEEB"
+        android:fillAlpha="0.4"
+        android:pathData="M21,18 L14,24 C12,26 12,28 12,30 L12,38 C12,42 16,44 24,44 C32,44 36,42 36,38 L36,30 C36,28 36,26 34,24 L27,18 Z"
+        android:strokeColor="#4682B4"
+        android:strokeWidth="0.8"/>
+
+    <!-- Liquid -->
+    <path
+        android:fillColor="#CC3333"
+        android:pathData="M14,28 L34,28 L34,38 C34,41 30,43 24,43 C18,43 14,41 14,38 Z"/>
+
+    <!-- Liquid highlight -->
+    <path
+        android:fillColor="#FF6666"
+        android:fillAlpha="0.4"
+        android:pathData="M16,30 L20,30 L20,38 C20,39 18,40 17,39 L16,38 Z"/>
+
+    <!-- Sparkle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.6"
+        android:pathData="M30,32 L31,31 L32,32 L31,33 Z"/>
+</vector>

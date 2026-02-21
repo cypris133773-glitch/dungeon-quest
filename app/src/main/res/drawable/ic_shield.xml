@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Shield body -->
+    <path
+        android:fillColor="#4169E1"
+        android:pathData="M24,4 L40,10 L40,26 C40,34 32,42 24,46 C16,42 8,34 8,26 L8,10 Z"
+        android:strokeColor="#1E3A8A"
+        android:strokeWidth="1.5"/>
+
+    <!-- Shield border -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M24,7 L37,12 L37,26 C37,32 31,39 24,43 C17,39 11,32 11,26 L11,12 Z"
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="1.5"/>
+
+    <!-- Shield cross -->
+    <path
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="2"
+        android:pathData="M24,12 L24,38 M14,24 L34,24"/>
+
+    <!-- Center gem -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M24,21 L27,24 L24,27 L21,24 Z"/>
+</vector>

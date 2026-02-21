@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Hexagonal d20 shape -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M24,2 L44,14 L44,34 L24,46 L4,34 L4,14 Z"
+        android:strokeColor="#FFD700"
+        android:strokeWidth="1.5"/>
+
+    <!-- Inner lines -->
+    <path
+        android:strokeColor="#996515"
+        android:strokeWidth="0.8"
+        android:pathData="M24,2 L24,46 M4,14 L44,34 M44,14 L4,34"/>
+
+    <!-- Center highlight -->
+    <path
+        android:fillColor="#1A0E08"
+        android:pathData="M24,14 L34,24 L24,34 L14,24 Z"/>
+
+    <!-- 20 text would be rendered by the app -->
+</vector>
