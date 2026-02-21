@@ -214,7 +214,8 @@ fun DiceRollerScreen(
                 contentColor = GoldLight
             ),
             shape = RoundedCornerShape(16.dp),
-            border = ButtonDefaults.outlinedButtonBorder.copy(
+            border = BorderStroke(
+                width = 2.dp,
                 brush = androidx.compose.ui.graphics.Brush.horizontalGradient(
                     listOf(GoldDark, GoldPrimary, GoldDark)
                 )
